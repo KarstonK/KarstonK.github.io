@@ -1,40 +1,57 @@
-<h2>Getting Started:</h2>
-<code><p>fn main() {</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;println!("Hello World");</p>
-<p>}</p></code>
-<h4>setting variables:</h4>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+
+
+<h3>Getting Started:</h3>
+<pre>fn main() {
+&nbsp;&nbsp;&nbsp;&nbsp;println!("Hello World");
+}</pre>
+<h3>Setting variables:</h3>
 <p>Example 1: let varName: varType = value; // will use the set variable type</p>
 <p>Example 2: let varName = value; // will try to guess variable type</p>
-<h5>Integer:</h4>
-<p>Signed (can go negative): [i8, i16, i32, i64, i128, isize]</p>
-<p>Unsigned (only 0 and positives): [u8, u16, u32, u64, u128, usize]</p>
-<p>Integer example: let i = 2; // i32</p>
-<p>Integer example: let i:u16 = 5; // u16</p>
-<p>Float: [f32, f64]</p>
-<p>Float example: let x = 1.2; // f64</p>
-<p>Float example: let y: f32 = 2.3; // f64</p>
-<p>Boolean: bool</p>
-<p>Boolean example: let run = true;</p>
-<p>Character: char</p>
-<p>Character example: let f = 'f'; // char</p>
-<p>Character example: let f:char = 'f'; // char</p>
-<p>Tuple: (varType, otherVarType, etc)</p>
-<p>Tuple example: let tup: (i32, u8, f32) = (-512, 1, 12.6); // i32, u8, f32</p>
-<p>Array: [varType; varAmount]</p>
-<p>Array example: let nums = [1, 2, 3, 4, 5]; // type: i32 vars: infinity</p>
-<p>Array example: let nums:[u8; 5] = [1, 2, 3, 4, 5]; // type: u8 vars: 5</p>
-<p>Array example: let nums = [1; 5]; // type: i32 vars: 5 and: all values are the number '1'</p>
-<h4>Maniputating strings:</h4>
+<h4>Integers:</h4>
+<p>Possible signed (can go negative) values: [i8, i16, i32, i64, i128, isize]</p>
+<p>Possible unsigned (only 0 and positives) values: [u8, u16, u32, u64, u128, usize]</p>
+<p>Example: let i = 2; // i32</p>
+<p>Example: let i:u16 = 5; // u16</p>
+<h4>Floats:</h4>
+<p>Possible values: [f32, f64]</p>
+<p>Example: let x = 1.2; // f64</p>
+<p>Example: let y: f32 = 2.3; // f64</p>
+<h4>Booleans:</h4>
+<p>Possible values: bool</p>
+<p>Example: let run = true;</p>
+<h4>Characters:</h4>
+<p>Possible values: char</p>
+<p>Example: let f = 'f'; // char</p>
+<p>Example: let f:char = 'f'; // char</p>
+<h4>Tuples:</h4>
+<p>Possible values: (varType, otherVarType, etc)</p>
+<p>Example: let tup: (i32, u8, f32) = (-512, 1, 12.6); // i32, u8, f32</p>
+<h4>Arrays:</h4>
+<p>Possible values: [varType; varAmount]</p>
+<p>Example: let nums = [1, 2, 3, 4, 5]; // type: i32 vars: infinity</p>
+<p>Example: let nums:[u8; 5] = [1, 2, 3, 4, 5]; // type: u8 vars: 5</p>
+<p>Eample: let nums = [1; 5]; // type: i32 vars: 5 and: all values are the number '1'</p>
+<h3>Maniputating strings:</h3>
 <p>.to_lowercase()</p>
 <p>.to_uppercase()</p>
 <p>.to_string()</p>
 <p></p>
 <p></p>
 <p></p>
-<h4>Numeric Operations:</h4>
+<h3>Numeric Operations:</h3>
 <p>Addition: 3 + 8 // 11</p>
 <p>Subtraction: 16.3 - 5.2 // 21.5</p>
 <p>Multiplication: 7 * 4 // 48</p>
 <p>division (quotient): 20.5 / 8.2 // 2.5</p>
 <p>division (floored): 3 / 2 // 0</p>
 <p>division (remainder): 37 % 5 // 2</p>
+
+
+</body>
+</html>
